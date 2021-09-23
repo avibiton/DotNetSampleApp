@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Skipped" label="Ignored" total="4" passed="3" failed="0" inconclusive="0" skipped="1" asserts="3" engine-version="3.6.1.0" clr-version="4.0.30319.42000" start-time="2020-11-30 15:14:15Z" end-time="2020-11-30 15:14:17Z" duration="2.295419">
+  <command-line><![CDATA["c:\temp\dotnet\DotNetSampleApp\packages\NUnit.ConsoleRunner.3.6.1\tools\nunit3-console.exe" MyCalculatorNUnitTests\bin\Debug\MyCalculatorNUnitTests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1009" name="MyCalculatorNUnitTests.dll" fullname="c:\temp\dotnet\DotNetSampleApp\MyCalculatorNUnitTests\bin\Debug\MyCalculatorNUnitTests.dll" runstate="Runnable" testcasecount="4" result="Skipped" label="Ignored" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.308886" total="4" passed="3" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="3">
+    <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="c:\temp\dotnet\DotNetSampleApp" machine-name="XPS9300-ALONW" user="alonw" user-domain="XPS9300-ALONW" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="c:\temp\dotnet\DotNetSampleApp" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4508" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <test-suite type="TestSuite" id="0-1010" name="MyCalculatorNUnitTests" fullname="MyCalculatorNUnitTests" runstate="Runnable" testcasecount="4" result="Skipped" label="Ignored" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.278364" total="4" passed="3" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="3">
+      <reason>
+        <message><![CDATA[One or more child tests were ignored]]></message>
+      </reason>
+      <test-suite type="TestFixture" id="0-1000" name="Class1" fullname="MyCalculatorNUnitTests.Class1" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" testcasecount="4" result="Skipped" label="Ignored" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.247988" total="4" passed="3" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="3">
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <test-suite type="ParameterizedMethod" id="0-1002" name="Add_1_1_Should_Return_2" fullname="MyCalculatorNUnitTests.Class1.Add_1_1_Should_Return_2" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.057305" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1001" name="Add_1_1_Should_Return_2()" fullname="MyCalculatorNUnitTests.Class1.Add_1_1_Should_Return_2()" methodname="Add_1_1_Should_Return_2" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" seed="1676443567" result="Passed" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.018153" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1004" name="Add_3_4_Should_Return_7" fullname="MyCalculatorNUnitTests.Class1.Add_3_4_Should_Return_7" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.031217" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1003" name="Add_3_4_Should_Return_7()" fullname="MyCalculatorNUnitTests.Class1.Add_3_4_Should_Return_7()" methodname="Add_3_4_Should_Return_7" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" seed="706360500" result="Passed" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.000580" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1006" name="Subtract_3_4_Should_Return_Minus1" fullname="MyCalculatorNUnitTests.Class1.Subtract_3_4_Should_Return_Minus1" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" testcasecount="1" result="Passed" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.030912" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1005" name="Subtract_3_4_Should_Return_Minus1()" fullname="MyCalculatorNUnitTests.Class1.Subtract_3_4_Should_Return_Minus1()" methodname="Subtract_3_4_Should_Return_Minus1" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" seed="31694078" result="Passed" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.000831" asserts="1" />
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1008" name="Subtract_4_3_Should_Return_" fullname="MyCalculatorNUnitTests.Class1.Subtract_4_3_Should_Return_" classname="MyCalculatorNUnitTests.Class1" runstate="Ignored" testcasecount="1" result="Skipped" label="Ignored" site="SetUp" start-time="2020-11-30 15:14:17Z" end-time="2020-11-30 15:14:17Z" duration="0.015249" total="1" passed="0" failed="0" warnings="0" inconclusive="0" skipped="1" asserts="0">
+          <properties>
+            <property name="_SKIPREASON" value="Reason" />
+          </properties>
+          <reason>
+            <message><![CDATA[Reason]]></message>
+          </reason>
+          <test-case id="0-1007" name="Subtract_4_3_Should_Return_()" fullname="MyCalculatorNUnitTests.Class1.Subtract_4_3_Should_Return_()" methodname="Subtract_4_3_Should_Return_" classname="MyCalculatorNUnitTests.Class1" runstate="Runnable" seed="1197386656" result="Skipped" label="Ignored" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+            <reason>
+              <message><![CDATA[OneTimeSetUp: Reason]]></message>
+            </reason>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
