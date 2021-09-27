@@ -8,7 +8,7 @@ c:\utils\wget -nv http://agents.sealights.co/SL.DotNet/SL.DotNet-2.0.1.745.zip
 c:\utils\7z e -y SL.DotNet-2.0.1.745.zip
 for /F %%i in (version.txt) do @echo version is %%i
 
-set SL_APP_NAME=DotNet_APP
+set SL_APP_NAME=DotNetSampleApp
 set SL_BRANCH_NAME=master
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c%%a%%b)
 For /f "tokens=1-2 delims=/: " %%a in ('time /t') do (set mytime=%%a%%b%TIME:~6,2%)
