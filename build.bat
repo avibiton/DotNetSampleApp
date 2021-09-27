@@ -24,7 +24,5 @@ echo "Run MSBuild..."
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\MSBuild.exe" DotNetSampleApp.sln /t:Rebuild
 
 
-echo "Scanning the build..."
-SL.DotNet.exe scan --buildSessionIdFile buildSessionId.txt --workspacePath "%cd%"\MyCalculator --ignoreGeneratedCode true
 
 
